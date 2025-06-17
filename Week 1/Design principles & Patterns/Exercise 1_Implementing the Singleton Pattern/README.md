@@ -65,5 +65,5 @@ This confirms that only one instance of Logger is used, demonstrating the Single
 
 ## Author
 
-Ansh Jasrotia  
+Prathamansh Jasrotia  
 Created as part of a design patterns learning exercise.
