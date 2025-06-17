@@ -1,4 +1,4 @@
-# SingletonPatternExample
+# Exercise l_lmplementing the Singleton Pattern
 
 This project demonstrates the implementation of the Singleton Design Pattern in Java using a simple `Logger` utility class.
 
@@ -10,7 +10,7 @@ Ensure that only one instance of the `Logger` class is created and used througho
 
 ## Project Structure
 
-SingletonPatternExample/
+Exercise l_lmplementing the Singleton Pattern/
 ├── Logger.java      - Singleton Logger class  
 ├── Main.java        - Test class demonstrating the singleton behavior  
 └── README.md        - Project documentation
