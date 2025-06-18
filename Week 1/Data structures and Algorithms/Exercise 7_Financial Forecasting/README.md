@@ -56,5 +56,5 @@ Future Value : 16105.10
 
 - This solution demonstrates a clean DSA-focused recursive implementation.
 
-👨‍💻 Author
+## 👨‍💻 Author
 Prathamansh Jasrotia
