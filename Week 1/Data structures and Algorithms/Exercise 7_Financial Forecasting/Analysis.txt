@@ -1,0 +1,9 @@
+1. Time Complexity:
+Method	        Time Complexity	           Space Complexity
+----------------------------------------------------------------
+Recursive	        O(n)	               O(n) call stack
+
+2. Optimization Tips:
+(a) Avoid stack overflow by using iteration or memoization.
+(b) Recursive method is elegant, but inefficient for large n.
+(c) Use loop-based approach for performance in production.
