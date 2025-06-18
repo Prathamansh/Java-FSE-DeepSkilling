@@ -1,0 +1,4 @@
+| **Search Type**   | **Best Case**         | **Average Case** | **Worst Case** |
+| ----------------- | --------------------- | ---------------- | -------------- |
+| **Linear Search** | O(1) (first element)  | O(n/2) ≈ O(n)    | O(n)           |
+| **Binary Search** | O(1) (middle element) | O(log n)         | O(log n)       |
