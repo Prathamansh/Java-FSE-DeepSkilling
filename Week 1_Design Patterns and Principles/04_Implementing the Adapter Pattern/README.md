@@ -15,9 +15,10 @@ This project demonstrates the **Adapter Pattern** in Java by adapting third-part
 ## ▶️ How to Run
 
 **Compile all files:**
-   ```bash
+   
    - javac *.java
    - java AdapterPatternTest
+
 
 ## Author
 Prathamansh Jasrotia
