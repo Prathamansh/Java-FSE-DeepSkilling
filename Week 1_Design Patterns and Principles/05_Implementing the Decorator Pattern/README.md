@@ -1,4 +1,4 @@
-# 📣 Decorator Pattern Example in Java
+# 📣 Implementing the Decorator Pattern
 
 This project demonstrates the **Decorator Design Pattern** to build a flexible notification system that can send messages via multiple channels like Email, SMS, and Slack.
 
