@@ -1,1 +1,1 @@
-
+This folder contains the complete solutions for all the exercises provided in the docx file. Each exercise is implemented with well-structured Java code, along with outputs and a detailed README.md file explaining the problem statement, approach, time complexity analysis, and usage instructions.
