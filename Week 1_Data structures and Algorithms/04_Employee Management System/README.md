@@ -58,4 +58,4 @@ Employee added successfully.
 ```
 
 ## Author
-Praathamansh Jasrotia
+Prathamansh Jasrotia
