@@ -1,3 +1,0 @@
-For large and sorted product listings, Binary Search is more optimal due to O(log n) complexity. 
-However, if the dataset is small or frequently updated (unsorted), 
-Linear Search might be simpler and more practical.

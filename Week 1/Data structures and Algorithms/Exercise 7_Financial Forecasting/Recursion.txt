@@ -1,6 +1,0 @@
-What is Recursion?
-Recursion is when a method calls itself to solve smaller instances of the same problem.
-
-Why use Recursion?
-1. Simplifies problems like factorial, Fibonacci, tree traversal.
-2. Expresses repeating patterns in a cleaner, mathematical way.
