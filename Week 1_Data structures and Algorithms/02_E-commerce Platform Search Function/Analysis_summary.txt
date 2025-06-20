@@ -1,0 +1,5 @@
+| Feature              | Linear Search           | Binary Search         |
+| -------------------- | ----------------------- | --------------------- |
+| Sorted Required?     |  No                     |  Yes                  |
+| Speed                |  Slower for large list  |  Faster (O(log n))    |
+| Best Use Case        | Small/unsorted list     | Large/sorted list     |
