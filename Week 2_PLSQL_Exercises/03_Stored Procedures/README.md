@@ -1,0 +1,1 @@
+This subfolder contains the .docx file which contain the code as well as the sample output of the code by adding sample values or data to the table. and it also contains the .sql files for each scenarios.
