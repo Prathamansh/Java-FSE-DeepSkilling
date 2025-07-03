@@ -1,0 +1,57 @@
+# Difference between JPA, Hibernate, and Spring Data JPA
+
+## Java Persistence API (JPA)
+- JSR 338 Specification for persisting, reading and managing data from Java objects.
+- Does not contain concrete implementation of the specification.
+- Hibernate is one of the implementation of JPA.
+
+## Hibernate
+- ORM Tool that implements JPA.
+- Requires boilerplate code for session and transaction management.
+
+## Spring Data JPA
+- Does not have JPA implementation but reduces boilerplate code.
+- Adds another level of abstraction over JPA implementation providers like Hibernate.
+- Manages transactions automatically.
+
+## Code Comparison
+
+### Hibernate
+```
+public Integer addEmployee(Employee employee){
+    Session session = factory.openSession();
+    Transaction tx = null;
+    Integer employeeID = null;
+
+    try {
+        tx = session.beginTransaction();
+        employeeID = (Integer) session.save(employee);
+        tx.commit();
+    } catch (HibernateException e) {
+        if (tx != null) tx.rollback();
+        e.printStackTrace();
+    } finally {
+        session.close();
+    }
+    return employeeID;
+}
+```
+
+### Spring Data JPA
+
+**EmployeeRepository.java**
+```
+public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
+}
+```
+
+**EmployeeService.java**
+```
+@Autowired
+private EmployeeRepository employeeRepository;
+
+@Transactional
+public void addEmployee(Employee employee) {
+    employeeRepository.save(employee);
+}
+```
